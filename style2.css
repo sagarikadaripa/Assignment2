@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+}
+
+.container,
+.top-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  width: 100%;
+  align-items: center;
+}
+
+.heading {
+  padding: 1.3rem;
+  margin: 20px;
+  font-size: 3.2rem;
+  color: #3b3232;
+}
+
+.title .line {
+  flex: auto;
+  width: 155px;
+  height: 1px;
+  background: #707070;
+}
+
+.back-button {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+
+.button,
+.lower-button {
+  padding: 5px 6px;
+  margin-right: 14px;
+  border: none;
+  border-radius: 50%;
+  background-color: #e74c3c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.back {
+  color: #707070;
+}
+
+.todo-lists {
+  height: 340px;
+  width: 350px;
+  border: 1px solid#e74c3c;
+  border-radius: 7px;
+  box-shadow: 6px 6px 6px lightgray;
+  position: relative;
+}
+
+.todo-task {
+  font-weight: normal;
+  text-align: center;
+  color: #e74c3c;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.card-line {
+  margin-left: 110px;
+}
+
+.task {
+  font-weight: bolder;
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  color: #e74c3c;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.task-check {
+  color: black;
+  font-weight: 400;
+  margin-left: 80px;
+  font-size: 1.2rem;
+}
+
+.lower-button {
+  position: absolute;
+  bottom: 18px;
+  right: 2px;
+}
+
+input.checkbox {
+  width: 20px;
+  height: 18px;
+}
